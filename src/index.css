@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  border: 1px solid steelblue;
+  padding: 30px;
+  margin:20px;
+  border-radius: 5px;
+}
+
+.header {
+  margin: 20px;
+}
+
+.btn{
+  border-color:gray;
+  margin:10px 20px;
+}
+.courses{
+  display:flex;
+  width:100%;
+  margin-top:20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.courses figure{
+  width:300px;
+}
+
+figcaption > div >  p{
+  width:97%;
+  padding:0 2% 0 1%;
+  font-size:20px;
+}
+
+figcaption > p{
+  padding:5px;
+  margin:2px;
+  font-size:15px;
+}
+.descrip{
+  width:65%;
+  margin:17px;
+  font-size:16px;
+}
+
+img{
+  width:100%;
+ }
